@@ -11,13 +11,12 @@ This repository contains a set of small TypeScript examples that demonstrate cor
 
 ## Project Structure
 
-.
-├── types.ts
-├── variables.ts
-├── functions.ts
-├── objects.ts
-├── arrays.ts
-└── README.md
+- types.ts
+- variables.ts
+- functions.ts
+- objects.ts
+- arrays.ts
+- README.md
 
 ## File Overview
 
