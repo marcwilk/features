@@ -1,75 +1,64 @@
 # TypeScript Fundamentals
 
-This repository contains a set of small TypeScript examples that demonstrate core language features, typing patterns, and best practices. Each file focuses on a specific concept and is intended for learning, reference, and review rather than as a single application.
+This repository contains a collection of small, focused TypeScript examples that demonstrate core language features, type inference, and common typing patterns. Each file is intentionally scoped to a single concept and can be reviewed independently.
 
-## Project Purpose
+The goal of this repository is to build a strong mental model of TypeScript fundamentals before moving on to frameworks or production-scale applications.
+
+---
+
+## Purpose
 
 - Practice TypeScript syntax and type annotations
-- Understand how TypeScript handles variables, functions, objects, and classes
-- Learn when and why to use explicit type annotations
-- Build a solid foundation before moving on to more advanced TypeScript topics
+- Understand how TypeScript infers types
+- Learn when explicit typing improves safety and readability
+- Explore common patterns and pitfalls
+- Build confidence working with typed JavaScript code
 
-## Project Structure
+---
 
-- types.ts
-- variables.ts
-- functions.ts
-- objects.ts
-- arrays.ts
-- README.md
+## Repository Structure
 
-## File Overview
+This repository is organized as a set of standalone `.ts` files.
 
-### types.ts
+Each file:
 
-Demonstrates basic type inference and object creation, including:
+- Focuses on one core TypeScript concept
+- Contains small, readable examples
+- Demonstrates both correct usage and common mistakes
+- Is meant for learning, reference, and interview prep
 
-- Working with Date objects
-- Object literals
-- Class definitions and instantiation
-- How TypeScript infers types by default
+There is no single “entry point” or runnable application.
 
-### variables.ts
+---
 
-Covers variable declarations and type annotations, including:
+## Concepts Covered
 
-- Primitive types (number, string, boolean, null, undefined)
-- Arrays with typed elements
-- Object literals with explicit typing
-- Function type annotations
-- Common scenarios where explicit annotations are necessary
+Examples in this repository may include (but are not limited to):
 
-### functions.ts
+- Type inference and explicit annotations
+- Primitive types and variables
+- Functions and return types
+- Objects and structured data
+- Arrays, tuples, and unions
+- Interfaces and structural typing
+- Destructuring and nested data
+- Common TypeScript pitfalls and best practices
 
-Shows different ways to define and type functions in TypeScript:
+New files can be added at any time to explore additional concepts.
 
-- Arrow functions
-- Function declarations
-- Anonymous functions
-- Return type annotations
-- Void return types
-- Destructuring with type annotations in function parameters
+---
 
-### objects.ts
+## How to Use This Repo
 
-Focuses on typing objects and destructuring, including:
+- Review individual files in isolation
+- Experiment by modifying examples or introducing type errors
+- Use the repo as a quick reference while learning or interviewing
+- Extend the repository with new files as you learn more advanced topics
 
-- Nested object structures
-- Methods with typed parameters and return values
-- Destructuring with explicit type annotations
-- Working with deeply nested properties
-
-### arrays.ts
-
-Covers array-related TypeScript concepts such as:
-
-- Typed arrays
-- Arrays of objects
-- Iteration and type inference
-- Common patterns for working with collections in TypeScript
+---
 
 ## Notes
 
-- Each file is independent and can be reviewed on its own
-- The code prioritizes clarity over production-level structure
-- This repository serves as a reference while progressing through more advanced TypeScript topics
+- Code examples prioritize clarity over production-level architecture
+- Some examples intentionally demonstrate incorrect or discouraged patterns to highlight why they should be avoided
+- This repository is meant to grow over time alongside deeper TypeScript learning (generics, narrowing, classes, advanced types, frameworks, etc.)
